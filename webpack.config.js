@@ -28,5 +28,8 @@ module.exports = {
             filename: 'index.html',
             template: 'index.ejs'
         })
-    ]
+    ],
+    devServer: {
+        contentBase: "dist"
+    }
 }

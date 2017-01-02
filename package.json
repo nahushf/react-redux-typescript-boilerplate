@@ -4,7 +4,7 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
@@ -22,10 +22,11 @@
     "redux": "^3.6.0",
     "style-loader": "^0.13.1",
     "ts-loader": "^1.2.2",
-    "tslint": "^4.0.1",
-    "tslint-loader": "^2.1.5",
+    "tslint": "^4.2.0",
+    "tslint-loader": "^3.3.0",
     "typescript": "^2.0.10",
     "url-loader": "^0.5.7",
-    "webpack": "^1.13.3"
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
   }
 }
